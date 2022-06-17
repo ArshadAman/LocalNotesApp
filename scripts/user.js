@@ -15,6 +15,8 @@ let btn = document.getElementById('login').addEventListener('click', function(e)
         if(create){
             userArr.push(username);
             localStorage.setItem("USERS", JSON.stringify(userArr));
+            sessionStorage.setItem('current-user', username);
+            location.href = 'notes.html';
         }
     }
     else{
