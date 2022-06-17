@@ -1,0 +1,20 @@
+Algorithm for adding user
+
+Step 1: Take the username
+
+Step 2: Check if the user exists in the Local Storage
+
+Step 3: If user does not exists, ask to make a new user and give him a fresh dashboard for entering his note
+
+Step 4: If user exists, fetch the username from the localstorage and save the username in the notes object like title, id, text etc,
+        let Obj = {
+            title: heading.value,
+            text: addText.value,
+            imp: Number(imp.checked),
+            user: user
+        }
+
+Step 5: if the logged in user == user in the note object, show that note.
+
+
+DONE
